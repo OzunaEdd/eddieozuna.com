@@ -10,7 +10,7 @@ ul {
 }
 
 .container {
-    height: 680px;
+    height: 675px;
     text-align: center;
     position: relative;
 }
@@ -205,9 +205,16 @@ nav ul li a:hover {
 
 #portfolio img {
     height: 50%;
-    border-radius: 100px;
+    border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.308);
     cursor: pointer;
+}
+
+a:active,
+a:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
 }
 
 .card-container {
