@@ -10,7 +10,7 @@ ul {
 }
 
 .container {
-    height: 650px;
+    height: 680px;
     text-align: center;
     position: relative;
 }
@@ -22,7 +22,6 @@ ul {
 
 #home {
     background: rgba(0, 7, 66, 0.80);
-    min-height: 100vh;
 }
 
 
@@ -317,12 +316,11 @@ nav ul li a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: 100% 100%;
-    min-height: 100vh;
+
 }
 
 .contact-sec {
     background: rgba(211, 211, 211, 0.8);
-    min-height: 100vh;
 }
 
 .contact-sec form {
