@@ -3,6 +3,7 @@
 @import url("reset.css");
 
 
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -92,7 +93,7 @@ h1,
     color: white;
     font-weight: bold;
     font-size: 1em;
-    width: 300px;
+    width: 250px;
     cursor: pointer;
     border-radius: 100px;
 
@@ -137,33 +138,15 @@ nav ul li a:hover {
     color: black;
 }
 
-
-.home-btn:before {
-    content: url('./img/home.png');
-    zoom: 60%;
-
-    padding-right: 10px;
+.nav-li {
+    display: flex;
 }
 
-.portfolio-btn:before {
-    content: url('./img/suitcase.png');
-    zoom: 60%;
-
-    padding-right: 10px;
-}
-
-.about-btn:before {
-    position: relative;
-    content: url('./img/info.png');
-    zoom: 60%;
-    padding-right: 10px;
-    bottom: 0px;
-}
-
-.contact-btn:before {
-    content: url('./img/envelope.png');
-    zoom: 60%;
-    padding-right: 10px;
+.nav-li img {
+    width: 30px;
+    height: 30px;
+    padding-left: 30px;
+    margin-top: 4px;
 }
 
 .exit-btn {
@@ -197,10 +180,14 @@ nav ul li a:hover {
 }
 
 /* Portfolio Section */
+#portfolio {
+    height: 500px;
+}
+
 #portfolio h1 {
     font-weight: bold;
-    font-size: 2em;
-    margin-top: 55px;
+    font-size: 1.5em;
+    padding-top: 10px;
 }
 
 #portfolio img {
@@ -214,11 +201,13 @@ a:active,
 a:focus {
     outline: 0;
     border: none;
-    -moz-outline-style: none;
 }
 
 .card-container {
     display: flex;
+    height: 50%;
+    -ms-transform: translateY(20%);
+    transform: translateY(20%);
 }
 
 .card {
@@ -226,8 +215,6 @@ a:focus {
     width: 30%;
     padding-left: 10px;
     margin: 0 auto;
-    -ms-transform: translateY(40%);
-    transform: translateY(40%);
 }
 
 
@@ -267,53 +254,53 @@ a:focus {
 
 /* About Section*/
 #about {
+    color: white;
     background: rgba(0, 7, 66, 0.80);
 }
 
-.profile-container {
-    margin: 20px 20px 0 0;
-    height: 500px;
-    display: flex;
-    -ms-transform: translateY(15%);
-    transform: translateY(15%);
+#about h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
 }
 
 .profile-pic {
-    transition: 0.3s;
-    width: 50%;
-    float: left;
-    margin: 0 auto;
-    display: block;
-    -ms-transform: translateY(10%);
-    transform: translateY(10%);
+    margin-top: 50px;
+    width: 40%;
 }
 
 .profile-content {
-    color: white;
-    display: block;
-    line-height: 1.3em;
-    margin-left: 20%;
-    margin-top: 10%;
-    width: 100%;
+    margin: 20px auto;
+    width: 95%;
     font-size: .7em;
-
-}
-
-.profile-content h4 {
-    font-weight: bold;
-    margin-bottom: 20px;
+    line-height: 1.2em;
 }
 
 .about-icon {
     display: flex;
     justify-content: center;
+    margin: 20px auto;
+    width: 50%;
+    font-weight: bold;
+    font-size: .9em;
 
 }
 
-.about-icon img {
-    margin-top: 10%;
+.icon-container {
     width: 10%;
-    padding-left: 4%;
+    padding: 5px 5px 5px 5px;
+    margin-left: 10px;
+    font-size: .7em;
+}
+
+.icon-container p {
+    text-align: center;
+    width: 100%;
+}
+
+.about-icon img {
+    width: 100%;
+    height: 100%;
 }
 
 /*Contact Section */
@@ -433,6 +420,15 @@ footer {
 
     }
 
+    .profile-pic {
+        width: 20%;
+    }
+
+    .profile-content {
+        width: 85%;
+        font-size: 1em;
+    }
+
 
 }
 
@@ -491,22 +487,6 @@ footer {
         color: rgb(255, 87, 87);
     }
 
-    .home-btn:before {
-        content: '';
-    }
-
-    .portfolio-btn:before {
-        content: '';
-    }
-
-    .about-btn:before {
-        content: '';
-    }
-
-    .contact-btn:before {
-        content: '';
-    }
-
     .card-content h4 {
         font-size: 1em;
     }
@@ -519,6 +499,9 @@ footer {
         width: 140px;
     }
 
+    .profile-pic {
+        width: 20%;
+    }
 
     form {
         background: white;
@@ -526,37 +509,5 @@ footer {
         height: 60%;
     }
 
-    .profile-container {
-        margin: 20px 20px 0 0;
-        height: 500px;
-        display: flex;
-        -ms-transform: translateY(15%);
-        transform: translateY(15%);
-    }
 
-    .profile-pic {
-        transition: 0.3s;
-        width: 37%;
-        float: left;
-        margin: 0 auto;
-        display: block;
-        -ms-transform: translateY(10%);
-        transform: translateY(10%);
-    }
-
-    .profile-content {
-        color: white;
-        display: block;
-        line-height: 1.3em;
-        margin-left: 20%;
-        margin-top: 10%;
-        width: 100%;
-        font-size: .9em;
-
-    }
-
-    .profile-content h4 {
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
 }

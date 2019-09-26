@@ -24,10 +24,10 @@
 
           <ul class="show-desktop hide-mobile" id="nav">
             <li id="exit" class="exit-btn hide-desktop"><img src="./img/exit.svg" alt="exit menu"></li>
-            <li><a href="#home" class="home-btn">Home</a></li>
-            <li><a href="#portfolio" class="portfolio-btn">Portfolio</a></li>
-            <li><a href="#about" class="about-btn">About</a></li>
-            <li><a href="#contact" class="contact-btn">Contact</a></li>
+            <li class="nav-li"><img class="hide-desktop" src="./img/home.png" alt=""><a href="#home" class="home-btn">Home</a></li>
+            <li class="nav-li"><img class="hide-desktop" src="./img/suitcase.png" alt=""><a href="#portfolio" class="portfolio-btn">Portfolio</a></li>
+            <li class="nav-li"><img class="hide-desktop" src="./img/info.png" alt=""><a href="#about" class="about-btn">About</a></li>
+            <li class="nav-li"><img class="hide-desktop" src="./img/envelope.png" alt=""><a href="#contact" class="contact-btn">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -80,25 +80,42 @@
   </section>
   <section id="about">
     <div class="container">
+    <h1>About me</h1>
       <div class="profile-container">
-        <div class="profile-pic">
-          <img src="./img/new.png" alt="" style="width: 100%">
-        </div>
+          <img src="./img/new.png" alt="" class="profile-pic">
         <div class="profile-content">
-          <h4><b>About me</b></h4>
           <p>Hello, My name is Eddie Ozuna. I am a Software Engineer who loves to tackle interesting problems.
-            Currently, I am pursuing my Bachelor Degree in Computer Science. My specialization is currently exploring
-            all fields to find where exactly I fit. These are some of the career fields that have caught my attention on
-            Web Development, Artifical Intelligence, and Data Science. Below I have listed the technologies I am most
+            Currently, I am pursuing my Bachelor Degree in Computer Science. My interests include Artificial Intelligence, Data Science, and Web development. I am open to collaborations, project work. My most recent collaboration took Best used of Amazon Alexa skill. Below I have listed the technologies I am most
             comfortable and familiar with.</p>
           <div class="about-icon">
-            <img src="./img/c++.png" alt="">
-            <img src="./img/html.svg" alt="">
-            <img src="./img/css.png" alt="">
-            <img src="./img/js.svg" alt="">
-            <img src="./img/python.svg" alt="">
-            <img src="./img/sql.png" alt="">
-            <img src="./img/php.svg" alt="">
+            <div class="icon-container">
+              <img src="./img/c++.png" alt="">
+            <p>C++</p>
+            </div>
+            <div class="icon-container">
+              <img src="./img/html.svg" alt="">
+              <p>HTML</p>
+            </div>
+            <div class="icon-container">
+              <img src="./img/css.png" alt="">
+              <p>CSS</p>
+            </div>
+            <div class="icon-container">
+              <img src="./img/js.svg" alt="">
+              <p>Javascript</p>
+            </div>
+            <div class="icon-container">
+              <img src="./img/python.svg" alt="">
+              <p>Python</p>
+            </div>
+            <div class="icon-container">
+              <img src="./img/sql.png" alt="">
+              <p>MySql</p>
+            </div>
+            <div class="icon-container">
+              <img src="./img/php.svg" alt="">
+              <p>PHP</p>
+            </div>
           </div>
         </div>
       </div>
