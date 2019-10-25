@@ -82,7 +82,7 @@
     <div class="container">
     <h1>About me</h1>
       <div class="profile-container">
-          <img src="./img/new.png" alt="" class="profile-pic">
+          <img src="./img/EddiePic.png" alt="" class="profile-pic">
         <div class="profile-content">
           <p>Hello, My name is Eddie Ozuna. I am a Software Engineer who loves to tackle interesting problems.
             Currently, I am pursuing my Bachelor Degree in Computer Science. My interests include Artificial Intelligence, Data Science, and Web development. I am open to collaborations, project work. My most recent collaboration took Best used of Amazon Alexa skill. Below I have listed the technologies I am most

@@ -266,7 +266,7 @@ a:focus {
 
 .profile-pic {
     margin-top: 50px;
-    width: 40%;
+    width: 48%;
 }
 
 .profile-content {
@@ -280,14 +280,15 @@ a:focus {
     display: flex;
     justify-content: center;
     margin: 20px auto;
-    width: 50%;
+    width: 70%;
+    height: 40px;
     font-weight: bold;
     font-size: .9em;
 
 }
 
 .icon-container {
-    width: 10%;
+    width: 50%;
     padding: 5px 5px 5px 5px;
     margin-left: 10px;
     font-size: .7em;
@@ -411,6 +412,7 @@ footer {
     cursor: pointer;
 }
 
+
 @media only screen and (min-width: 650px) {
     .social-img img {
         width: 12%;
@@ -419,6 +421,20 @@ footer {
         cursor: pointer;
 
     }
+
+    .profile-pic {
+        width: 25%;
+    }
+
+    .profile-content {
+        width: 85%;
+        font-size: 1em;
+    }
+
+
+}
+
+@media only screen and (min-width: 836px) {
 
     .profile-pic {
         width: 20%;
@@ -509,5 +525,12 @@ footer {
         height: 60%;
     }
 
+    .about-icon {
+
+        width: 50%;
+        height: 60px;
+
+
+    }
 
 }
